@@ -1,0 +1,14 @@
+{
+  "name": "fuckingshrt",
+  "version": "1.0.0",
+  "main": "shrt.js",
+  "repository": "https://github.com/coders-node/fuckingshrt",
+  "author": "Coders",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.10.0"
+  }
+}
