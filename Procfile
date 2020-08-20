@@ -1,0 +1,1 @@
+web: node shrt.js
