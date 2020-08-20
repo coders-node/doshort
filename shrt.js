@@ -10,10 +10,12 @@ const Router = require('./router');
 const CONFIG = JSON.parse(fs.readFileSync('./config/config.json'))
 const PORT = process.env.PORT || 1337;
 const Codes = require('./schema/schemaCodes');
+const cors = require('cors');
 
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 app.use('/api/v1', Router)
+app.use(cors())
 
 mongoose.connect(CONFIG.mongoUri, {
     useNewUrlParser: true,
