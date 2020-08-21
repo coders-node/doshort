@@ -50,9 +50,11 @@ npm start
 Далее, на следущей странице выбираем Shared cluster, нажимаем Create cluster:
 
 ![Free cluster](https://i.imgur.com/v74JT6R.png "Free Cluster Mongo DB")
+
 Нас перекинет сюда:
 
 ![Next page](https://i.imgur.com/IpfbNel.png)
+
 Нажимаем Create cluster и ждем:
 
 ![Waiting](https://i.imgur.com/6Sxciki.png)
