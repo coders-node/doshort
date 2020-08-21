@@ -1,5 +1,5 @@
 import openSocket from "socket.io-client";
 
-const socket = openSocket('https://doshort.tk');
+const socket = openSocket('http://localhost:1337');
 
 export default socket;

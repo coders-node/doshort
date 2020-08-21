@@ -37,7 +37,7 @@ npm start
 
 ### Настройка
 
-> MongoDB:
+> MongoDB в папке Server:
 Заходим на сайт [MongoDB]:https://www.mongodb.com/cloud/atlas/signup и регестрируемся:
 ![MongoDB](https://i.imgur.com/y1aqYrW.png "MongoDB")
 
@@ -50,6 +50,14 @@ npm start
 ![Next page](https://i.imgur.com/IpfbNel.png)
 Нажимаем Create cluster и ждем:
 ![Waiting](https://i.imgur.com/6Sxciki.png)
+После того, как cluster начнёт функцианировать нажимаем CONNECT:
+![Connect button](https://i.imgur.com/0DcIjWo.png)
+Далее нажимаем всё как на скриншоте:
+![Screen](https://i.imgur.com/AN852nw.png)
+![Screen2](https://i.imgur.com/xAqnsSj.png)
+![Screen3](https://i.imgur.com/ySjUy2G.png)
+Окей, теперь копируем эту строчку(см. изо. ниже), переходим в папку server, затем в папку config и открываем config.json. Вместо url вставляем нашу ссылку
+![уже лень писать](https://i.imgur.com/Rmwkcra.png)
+Вместо <password> вставляем свой пароль, а вместо <dbname> любую строчку наприер, shrt
 
----
-
+# Всё, спасибо досвидания я пошел отыхать, текст писал 50 минут
