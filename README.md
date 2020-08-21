@@ -1,7 +1,7 @@
 # DoShort - исходники
 
 ### Установка NodeJS
-> Для начала нужно установить [NodeJS]:https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi
+> Для начала нужно установить [NodeJS](https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi)
 > Для Linux: 
 ```bash
 sudo apt update && sudo apt install nodejs npm
@@ -38,7 +38,7 @@ npm start
 ### Настройка
 
 > MongoDB в папке Server:
-Заходим на сайт [MongoDB]:https://www.mongodb.com/cloud/atlas/signup и регестрируемся:
+Заходим на сайт [MongoDB](https://www.mongodb.com/cloud/atlas/signup) и регестрируемся:
 ![MongoDB](https://i.imgur.com/y1aqYrW.png "MongoDB")
 
 Если появилось такое окно, нажимаем skip:
